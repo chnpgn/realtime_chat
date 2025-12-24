@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Realtime Chat
+
+A real-time chat application built with [Next.js](https://nextjs.org), [React](https://react.dev), and [Upstash Realtime](https://upstash.com/docs/redis/features/realtimemessaging). 
+
+## Features
+
+- **Room-based chat**: Create ephemeral chat rooms with unique IDs
+- **Real-time messaging**: Instant message delivery powered by Upstash Realtime
+- **Auto-expiring rooms**: Chat rooms automatically expire and clean up after a set time
+- **Username support**: Set your display name when joining a room
+- **Persistent storage**: Messages stored in Redis via Upstash
+- **Modern stack**: Built with Next.js 16, React 19, TypeScript, and Tailwind CSS
+
+## Tech Stack
+
+- **Frontend**: Next.js, React, React Query, Tailwind CSS
+- **Backend**: Next.js API Routes, Elysia (lightweight web framework)
+- **Real-time**: Upstash Realtime
+- **Storage**: Upstash Redis
+- **Utilities**: nanoid, date-fns, Zod
 
 ## Getting Started
 
